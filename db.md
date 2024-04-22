@@ -6,7 +6,9 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 -modello | VARCHART(`255`) | NOTNULL
 -prezzo | MEDIUMINT | NOTNULL
 
+-immagine | VARCHART(`255`) | NULL
 -anno | YEAR | DEFAULT(`N/A`)
+-colore | VARCHART(`50`)
 -carburante | VARCHART(`100`) | DEFAULT(`N/A`)
 -km | MEDIUMINT | DEFAULT(`0`)
 -potenza | SMALLINT | NULL
